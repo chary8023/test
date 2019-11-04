@@ -1,0 +1,64 @@
+[
+    {
+      "id": "1",
+      "icon": "el-icon-location",
+      "title": "商品管理",
+      "userGroup":["0","1","2"],
+      "subMenu": [
+        { "subId": "/index/goods", "subTitle": "商品管理" },
+        { "subId": "/index/goodsadd", "subTitle": "添加商品" }
+      ]
+    },
+    {
+      "id": "2",
+      "icon": "el-icon-location",
+      "title": "进货管理",
+      "userGroup":["0","1","2"],
+      "subMenu": [
+        { "subId": "/index/instore", "subTitle": "库存管理" },
+        { "subId": "/index/instoreadd", "subTitle": "添加库存" }
+      ]
+    },
+    {
+      "id": "3",
+      "icon": "el-icon-location",
+      "title": "出货管理",
+      "userGroup":["0","1","2"],
+      "subMenu": [
+        { "subId": "/index/salelist", "subTitle": "销售列表" },
+        { "subId": "/index/goodsout", "subTitle": "商品出库" },
+        { "subId": "/index/goodsreturn", "subTitle": "商品退货" }
+      ]
+    },
+    {
+      "id": "4",
+      "icon": "el-icon-location",
+      "title": "统计管理",
+      "userGroup":["0"],
+      "subMenu": [
+        { "subId": "/index/salesta", "subTitle": "销售统计" },
+        { "subId": "/index/instoresta", "subTitle": "进货统计" }
+      ]
+    },
+    {
+      "id": "5",
+      "icon": "el-icon-location",
+      "title": "账户管理",
+      "userGroup":["0"],
+      "subMenu": [
+        { "subId": "/index/account", "subTitle": "账号管理" },
+        { "subId": "/index/accountadd", "subTitle": "添加账号" },
+        { "subId": "/index/accountpwd", "subTitle": "密码修改" }
+      ]
+    },
+    {
+      "id": "6",
+      "icon": "el-icon-location",
+      "title": "会员管理",
+      "userGroup":["0","2"],
+      "subMenu": [
+        { "subId": "/index/VIP", "subTitle": "账户管理" },
+        { "subId": "/index/VIPAdd", "subTitle": "添加账户" }
+      ]
+    }
+  ]
